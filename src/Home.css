@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS to disable overscrolling */
+html {
+    overflow: hidden;
+    height: 100%;
+}
+body {
+	height: 100%;
+	overflow: auto;
+	overscroll-behavior-y: none;
+  }
+  
+.Home {}
+	.Home nav {
+		height: 95px;
+		background-color: white;
+		font-family: 'Poppins', sans-serif;
+		color: #2F2F2F;
+		position: absolute;
+	}
+		.Home nav .navContents {
+			height: 100%;
+			margin: 0px 0px 0px 150px;
+			padding: 0px;
+		}
+			.Home .navContents .logo {
+				height: 30px;
+				margin-right: 15px;
+			}
+			.Home .navContents .logoText {
+				font-size: 14.5px;
+				line-height: 14.5px;
+				font-weight: 500;
+			}
+			.Home .navContents .navItems {
+				margin-left: 6%;
+			}
+				.Home .navItems .navItem {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 17px;
+					font-weight: 400;
+					text-transform: none;
+					color: #2F2F2F;
+				}
+
+	.Home .sectionOne {
+		width: 100vw;
+		position: relative;
+		margin-top: 95px;
+	}
+		.Home .sectionOne .backgroundImage{
+			width: 100%;
+			z-index: -1;
+			display: block;
+		}
+		/* Instead of setting the image as absolute, set the text content as absolute so the div can inherit the images height */
+		.Home .sectionOne .sectionContent{
+			color: black;
+			font-family: 'Poppins', sans-serif;
+			padding: 340px 0px 0px 150px;
+			position: absolute;
+			top: 0; left: 0; 
+		}
+			.Home .sectionOne .sectionContent h1{
+				font-size: 18px;
+				margin: 0px 0px 10px 0px;
+				font-weight: 400;
+			}
+			.Home .sectionOne .sectionContent h2{
+				font-size: 52px;
+				line-height: 67.6px;
+				margin: 0px 0px 20px 0px;
+				width: 650px;
+				font-weight: 400;
+			}
+			.Home .sectionOne .sectionContent h3{
+				font-size: 20px;
+				line-height: 28.8px;
+				margin: 0px 0px 25px 0px;
+				width: 540px;
+				font-weight: 400;
+			}
+			.Home .sectionOne .sectionContent .learnMoreButton{
+				width: 200px;
+				height: 65px;
+				background-color: #04726D;
+				border-radius: 65px;
+				border: 0px;
+
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 18px;
+				font-weight: 400;
+				color: white;
+			}
+
+	.Home .sectionTwo {
+		width: 100vw;
+		height: 512px;
+		background-color: #09257A;
+		text-align: center;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		
+	}
+		.Home .sectionTwo .sectionContent {
+			padding-top: 80px;
+		}
+			.Home .sectionTwo .sectionContent h1{
+				font-weight: 400;
+				font-size: 37px;
+				margin: 0px 0px 10px 0px;
+			}
+			.Home .sectionTwo .sectionContent h2{
+				font-weight: 400;
+				font-size: 20px;
+				margin: 0px 0px 60px 0px;
+			}
+			.Home .sectionTwo .sectionContent p{
+				font-weight: 400;
+				font-size: 20px;
+				margin-top: 15px;
+			}
+
+	.Home .sectionThree {
+		width: 100vw;
+		position: relative;
+	}
+		.Home .sectionThree .backgroundImage{
+			width: 100%;
+			z-index: -1;
+			display: block;
+		}
+		.Home .sectionThree .gradient {
+			background: linear-gradient(90deg, #FFFFFF 22.22%, rgba(255, 255, 255, 0) 100%);
+			width: 85%;
+			height: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+		/* Instead of setting the image as absolute, set the text content as absolute so the div can inherit the images height */
+		.Home .sectionThree .sectionContent{
+			color: black;
+			font-family: 'Poppins', sans-serif;
+			padding: 405px 0px 0px 150px;
+			position: absolute;
+			top: 0; left: 0; 
+		}
+			.Home .sectionThree .sectionContent h1{
+				margin: 0px 0px 15px 0px;
+				font-size: 25px;
+				font-weight: 500;
+			}
+			.Home .sectionThree .sectionContent h2{
+				width: 450px;
+				margin: 0px 0px 25px 0px;
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 28.8px;
+			}
+			.Home .sectionThree .sectionContent .criteriaButton{
+				width: 263px;
+				height: 30px;
+				background-color: #09257A;
+				border-radius: 65px;
+				border: 0px;
+				font-size: 15px;
+				font-weight: 500;
+				color: white;
+				font-family: 'Poppins', sans-serif;
+			}
+
+	.Home .sectionFour {
+		width: 100vw;
+		text-align: center;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		position: relative;	
+	}
+		.Home .sectionFour .gradient {
+			background: linear-gradient(270deg, rgba(22, 71, 86, 0) 0%, #164756 100%);
+			width: 45%;
+			height: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+		.Home .sectionFour .backgroundImage{
+			width: 100%;
+			z-index: -1;
+			display: block;
+		}
+		.Home .sectionFour .sectionContent {
+			padding-top: 130px;
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			top: 0; left: 0; 
+		}
+			.Home .sectionFour .sectionContent h1{
+				font-weight: 400;
+				font-size: 37px;
+				margin: 0px 0px 20px 0px;
+			}
+			.Home .sectionFour .sectionContent h2{
+				font-weight: 400;
+				font-size: 20px;
+				margin: 0px 0px 95px 0px;
+				width: 830px;
+				position: relative;
+				transform: translateX(-50%);
+				left: 50%;
+			}
+			.Home .sectionFour .sectionContent h3{
+				font-weight: 400;
+				font-size: 20px;
+				margin: 15px 0px 0px 0px;
+			}
+			.Home .sectionFour .sectionContent p{
+				font-family: 'Roboto', sans-serif;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 22.5px;
+				margin-top: 10px;
+				max-width: 225px;
+				position: relative;
+				transform: translateX(-50%);
+				left: 50%;
+			}
+			.Home .sectionFour .sectionContent hr{
+				margin: 75px auto 60px;
+				border: 1px solid white;
+				width: 80%;
+			}
+			.Home .sectionFour .sectionContent h4{
+				font-weight: 700;
+				font-size: 22px;
+				margin: 0px;
+				
+			}
+			.Home .sectionFour .sectionContent .secondGrid{
+				margin-top: 35px;
+			}
+				.Home .sectionFour .sectionContent .secondGrid img{
+					width: 60px;
+					margin-bottom: 5px;
+					height: 60px;
+				}
+	.Home .sectionFive {
+		height: 593px;
+		width: 100%;
+	}
+		.Home .sectionFive h1 {
+			font-size: 25px;
+			color: #333333;
+			font-family: 'Poppins', sans-serif;
+			font-weight: 500;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		.Home .sectionFive .sectionContent{
+			padding: 100px 0px 30px 0px;
+			color: #2F2F2F;
+			font-family: 'Poppins', sans-serif;
+		}
+			.Home .sectionFive .sectionContent .card{
+				min-height: 290px;
+			}
+				.Home .sectionFive .card .cardContent{
+					padding-top: 10px;
+				}
+				.Home .sectionFive .card img{
+					width: 100%;
+				}
+				.Home .sectionFive .card .cardDate{
+					font-size: 9px;
+					font-weight: 400;
+				}
+					.Home .sectionFive .card .cardDate p{
+						/* Set line-height to the size of the tag below */
+						line-height: 20px;
+						margin: 0px;
+					}
+				.Home .sectionFive .card .cardTag{
+					font-size: 10px;
+					background-color: #F5F5F5;
+					font-weight: 500;
+					text-align: center;
+					height: 20px;
+				}
+				.Home .sectionFive .card .cardTag p {
+					margin: auto;
+					/* Set line-height to the height of cardTag above */
+					line-height: 20px;
+				}
+				.Home .sectionFive .card .cardBody{
+					font-weight: 500;
+					font-size: 16px;
+					margin: 10px 0px 0px;
+					line-height: 22.4px;
+				}
+
+	.Home .sectionSix {
+		background-color: #F5F5F5;
+		min-height: 413px;
+		height: fit-content;
+		padding-bottom: 30px;
+		color: #2F2F2F;
+	}
+	.Home .sectionSix .sectionContent {
+		padding-top: 70px;
+	}
+		.Home .sectionSix .sectionContent h1{
+			position: relative;
+			font-family: 'Poppins', sans-serif;
+			font-size: 25px;
+			font-weight: 500;
+			text-align: center;
+		}
+		.Home .sectionSix .sectionContent h2{
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center;
+			margin-bottom: 43px;
+		}
+		.Home .sectionSix .sectionContent input, .Home .sectionSix .sectionContent .countrySelector, .Home .sectionSix .sectionContent .messageField{
+			background-color: white;
+		}
+		.Home .sectionSix .sectionContent .messageField {
+			margin: 20px 0px;
+			display: none;
+		}
+		.Home .sectionSix .sectionContent .addMessageText {
+			text-decoration: underline;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			width: fit-content;
+			float: right;
+		}
+			.Home .sectionSix .sectionContent .addMessageText:hover {
+				cursor: pointer;
+			}
+		.Home .sectionSix .sectionContent button {
+			font-family: 'Poppins', sans-serif;
+			font-weight: 500;
+			font-size: 15px;
+			background-color: #236477;
+			color: white;
+			border-radius: 65px;
+			border: 0px;
+			padding: 4px 15px;
+			float: right;
+			clear: both;
+		}
+			.Home .sectionSix .sectionContent button:hover {
+				cursor: pointer;
+				background-color: #155568;
+			}
+
+	footer {
+		height: 72px;
+		width: 100%;
+		background-color: #2F2F2F;
+	}
+		footer img {
+			display: inline-block;
+			margin-left: 150px;
+			position: relative;
+			transform: translateY(-50%);
+			top: 50%;
+		}
+		footer p {
+			display: inline-block;
+			float: right;
+			color: white;
+			line-height: 72px;
+			margin: 0px 10% 0px;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+		}
+
+		
+		
