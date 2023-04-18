@@ -95,7 +95,7 @@ function Home() {
           </IconButton>
           <a href="#" className='logo'><img src={acerLogo} alt='The ACER logo'/></a>
           <p className='logoText'> Online Services<br />Test page</p>
-          <Box className='navItems' sx={{ display: {sm: 'none', md: 'inline-block', lg: 'inline-block'} }}>
+          <Box className='navItems' sx={{ display: {xs: 'none', md: 'inline-block', lg: 'inline-block'} }}>
             {navItems.map((item) => (
               <Button className='navItem' key={item} aria-label={item}>
                 {item}

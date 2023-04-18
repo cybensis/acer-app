@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# ACER Web Developer Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run
+### Built version with python
+1. Download this repo either directly from GitHub or with `git clone https://github.com/cybensis/acer-app` 
+2. In a terminal, navigate into the directory `acer-app/build` then run the command `python -m http.server 8080` (NOTE: depending on your machines configuration, you need to run with admin/sudo permissions)
+3. Access the web app through your browser with `localhost:8080`
+### Built version with web server
+1. Download this repo either directly from GitHub or with `git clone https://github.com/cybensis/acer-app` 
+2. Drag all the contents of the `acer-app/build` folder into the folder used by your web server of choice, e.g. Apache or NGINX
+3. Access the web app through however your web server of choice is configured
+### Development version
+1. Download this repo either directly from GitHub or with `git clone https://github.com/cybensis/acer-app` 
+2. In a terminal, navigate into the `acer-app` folder and run the command `npm install`
+3. After the install command is finished, run `npm start`, then you should be able to access the webpage via `localhost:3000`
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Decisions, compromises, and assumptions
+1. I assumed that for browsers that have been resized really thin, or for mobile users, a side navigation menu should be used to prevent trying to fit everything on a small horizontal bar.
+2. For the contact section, I decided to align the "Add message" text and the send button to the right instead of the middle right, as when adding the message component of the form, I have the textarea span across the whole form, rather than just half of it like the other text fields, so having the send button aligned to the middle right underneath this text area would look off.
+3. For the discover latest section, I decided that when resizing it might be better to lower the number of cards per row to 2 instead of 4.

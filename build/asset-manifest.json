@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bab0b4e6.css",
+    "main.js": "/static/js/main.a0016c29.js",
+    "static/media/homeImageTwo.png": "/static/media/homeImageTwo.1b843faf21e26e5b2a90.png",
+    "static/media/homeImageOne.png": "/static/media/homeImageOne.1e2af05bd142710ad99a.png",
+    "static/media/homeImageThree.png": "/static/media/homeImageThree.c798fef481504606963f.png",
+    "static/media/latestImageTwo.png": "/static/media/latestImageTwo.eff2e05eff95a531990d.png",
+    "static/media/latestImageThree.png": "/static/media/latestImageThree.681f624c3a68eab2cda5.png",
+    "static/media/latestImageOne.png": "/static/media/latestImageOne.398aa9e34464a3308bb1.png",
+    "static/media/latestImageFour.png": "/static/media/latestImageFour.26c4661c55c4345d76de.png",
+    "static/media/acerLogo.svg": "/static/media/acerLogo.3b9d3ddbeca81db1c9d8afde6b365575.svg",
+    "static/media/acerLogoLight.svg": "/static/media/acerLogoLight.3f69b08add14f9d58dec120adba6950d.svg",
+    "static/media/mathIcon.svg": "/static/media/mathIcon.0d261891830d22f3149d35b1593c7ff4.svg",
+    "static/media/preparationIcon.svg": "/static/media/preparationIcon.41e4aed8cab4eb6fb05c4874da3a5b5a.svg",
+    "static/media/scienceIcon.svg": "/static/media/scienceIcon.8cefebfc4a80b8a9293d978648cffd2e.svg",
+    "static/media/registrationIcon.svg": "/static/media/registrationIcon.a2b1c7a4f47d25f123685d78a0374c42.svg",
+    "static/media/administrationIcon.svg": "/static/media/administrationIcon.247026ce9b16b2ac09a976828851c831.svg",
+    "static/media/readingIcon.svg": "/static/media/readingIcon.7d595c9785b9e1f1dbd7708ec4a7fb4a.svg",
+    "index.html": "/index.html",
+    "main.bab0b4e6.css.map": "/static/css/main.bab0b4e6.css.map",
+    "main.a0016c29.js.map": "/static/js/main.a0016c29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab0b4e6.css",
+    "static/js/main.a0016c29.js"
+  ]
+}

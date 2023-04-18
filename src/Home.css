@@ -72,7 +72,7 @@
 		.Home .sectionOne .sectionContent{
 			color: black;
 			font-family: 'Poppins', sans-serif;
-			padding: 340px 0px 0px 150px;
+			padding: 24% 0px 0px 150px;
 			position: absolute;
 			top: 0; left: 0; 
 		}
@@ -160,7 +160,7 @@
 		.Home .sectionThree .sectionContent{
 			color: black;
 			font-family: 'Poppins', sans-serif;
-			padding: 405px 0px 0px 150px;
+			padding: 28% 0px 0px 150px;
 			position: absolute;
 			top: 0; left: 0; 
 		}
@@ -213,7 +213,7 @@
 			display: block;
 		}
 		.Home .sectionFour .sectionContent {
-			padding-top: 130px;
+			padding-top: 9%;
 			position: absolute;
 			width: 100%;
 			text-align: center;
@@ -227,7 +227,7 @@
 			.Home .sectionFour .sectionContent h2{
 				font-weight: 400;
 				font-size: 20px;
-				margin: 0px 0px 95px 0px;
+				margin: 0px 0px 6.75% 0px;
 				width: 830px;
 				position: relative;
 				transform: translateX(-50%);
@@ -250,7 +250,7 @@
 				left: 50%;
 			}
 			.Home .sectionFour .sectionContent hr{
-				margin: 75px auto 60px;
+				margin: 5% auto 4%;
 				border: 1px solid white;
 				width: 80%;
 			}
@@ -284,7 +284,7 @@
 			margin-bottom: 25px;
 		}
 		.Home .sectionFive .sectionContent{
-			padding: 100px 0px 30px 0px;
+			padding: 7% 0px 30px 0px;
 			color: #2F2F2F;
 			font-family: 'Poppins', sans-serif;
 		}
@@ -417,8 +417,12 @@
 		
 
 @media screen and (max-width: 1000px) {
+	.Home .navContents .logo {
+		margin-left: 15%;
+	}
+
 	.Home .sectionOne .sectionContent{
-		padding: 150px 0px 0px 100px;
+		padding-left: 100px;
 	}
 		.Home .sectionOne .sectionContent h1{
 			font-size: 14px;
@@ -448,14 +452,11 @@
 	}
 
 	.Home .sectionThree .sectionContent{
-		padding: 20% 0px 0px 100px;
+		padding-left: 100px;
 	}
 
 	.Home .sectionFive h1 {
 		font-size: 22px;
-	}
-	.Home .sectionFive .sectionContent{
-		padding: 75px 0px 30px 0px;
 	}
 		.Home .sectionFive .sectionContent .card{
 			min-height: 225px;
@@ -492,9 +493,6 @@
 	}
 
 	@media screen and (max-width: 1300px) { 
-		.Home .sectionFour .sectionContent {
-			padding-top: 10%;
-		}
 			.Home .sectionFour .sectionContent h1{
 				font-size: 32px;
 				margin: 0px 0px 20px 0px;
